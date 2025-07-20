@@ -1,0 +1,76 @@
+//Пустая корзина
+
+.emptyCartContainer {
+  width: 301px;
+  height: 226px;
+  border-radius: 16px;
+  background-color: #ffffff;
+  box-shadow:
+    0px 2px 8px 0px #21252914,
+    0px 1px 2px 0px #2125291a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: fixed;
+  top: 71px;
+  right: 20px;
+  z-index: 10;
+}
+
+.titleEmpty {
+  font-size: 16px;
+  font-family: Inter;
+  font-weight: 400;
+  color: #868e96;
+  margin-top: 24px;
+}
+
+.imgEmpty {
+  width: 118px;
+  height: 107px;
+  user-select: none;
+}
+
+//Актуальная корзина
+
+.cartContainer {
+  width: 444px;
+  max-height: 100%;
+  background-color: #ffffff;
+  box-shadow:
+    0px 2px 8px 0px #21252914,
+    0px 1px 2px 0px #2125291a;
+  border-radius: 16px;
+  position: fixed;
+  top: 71px;
+  right: 20px;
+  z-index: 10;
+  overflow-y: auto;
+}
+
+.totalContainer {
+  width: 396px;
+  height: 36px;
+  margin: 12px 24px 24px 24px;
+}
+
+.brTotal {
+  width: 396px;
+  height: 1px;
+  background-color: #dee2e6;
+}
+
+.totalContent {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 12px;
+}
+
+.total,
+.totalPrice {
+  font-family: Inter;
+  font-weight: 600;
+  font-size: 16px;
+  color: #000000;
+}

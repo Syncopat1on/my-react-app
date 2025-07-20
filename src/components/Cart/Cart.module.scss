@@ -1,0 +1,40 @@
+.button {
+  font-size: 16px;
+  font-weight: 600;
+  background-color: #54b46a;
+  color: #ffffff;
+  margin: 7.5px 20px 7.5px 0px;
+  width: 144px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  border: none;
+  transition: all 0.3s ease;
+  position: relative;
+  cursor: pointer;
+  &:hover {
+    background-color: #3b944e;
+    outline: none;
+    transform: scale(1.05);
+  }
+}
+
+.iconCart {
+  padding-left: 10px;
+}
+
+.quantity {
+  font-size: 14px;
+  font-weight: 600;
+  margin-right: 10px;
+  border-radius: 36px;
+  width: 20px;
+  height: 20px;
+  color: #212529;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
